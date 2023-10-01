@@ -55,8 +55,8 @@ fun AffirmationApp(modifier: Modifier = Modifier) {
 fun AffirmationList(affirmationList: List<Affirmation>, modifier: Modifier = Modifier){
     LazyColumn(modifier = modifier) {
         items(affirmationList){
-                affirmation ->
-            AffirmationCard(affirmation = affirmation,
+                aMilemMal ->
+            AffirmationCard(affirmation = aMilemMal,
                 modifier = Modifier.padding(8.dp))
 
         }
